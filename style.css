@@ -1,0 +1,147 @@
+h1{
+    background-image: url(images/image3.jfif);
+    padding: 70px;
+    background-position: cover;
+    color: azure;
+    text-align: center;
+    margin-bottom: 0px;
+    
+}
+
+#navbar{
+    background-color: rgb(11, 1, 27);
+    color: #fff;
+    
+}
+
+#navbar ul{
+    padding:20px;
+    list-style:none;
+    margin-top: 0px;
+}
+
+#navbar li{
+    display:inline;
+}
+
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size:18px;
+    padding-right:15px;
+}
+
+#welcome-image{
+    margin-left:40%;
+}
+
+body{
+    background: radial-gradient(white,rgb(153, 214, 238));
+    text-align:justify;
+    font-family: sans-serif;
+    
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border: 1px solid blue;
+    padding:10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+
+.img1{
+    width:150px;
+    float: left;
+    margin: 10px;
+}
+
+.content{
+    padding-bottom: 200px;
+}
+
+#contentlist{
+    float: right;
+    background: linear-gradient(to bottom right, rgb(119, 173, 216),rgb(232, 240, 231));
+    width:20%;
+    box-sizing: border-box;
+    margin:30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+
+
+
+#contentlist li{
+    padding:5px;
+}
+
+
+#contentlist li a:hover{
+    color:black;
+}
+
+#contentpara{
+    float: left;
+    width:70%;
+   
+    
+}
+
+.help a:link{
+    
+    color: #1c87c9;
+}
+
+.help a:visited{
+    color: #cccccc;
+}
+
+.help a:hover{
+    color: #8ebf42;
+}
+
+.help a:active{
+    color: #666666;
+}
+
+.my-form{
+    padding:20px
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form lable{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:30%;
+    border-radius: 5px;
+}
+
+.my-form input[type="submit"]{
+      background-color: rgb(11, 1, 27);
+      color:white;
+      padding:10px 15px;
+      border:none;
+      border-radius: 5px;
+}
+
+.my-form input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+
+#footer {
+    text-align: center;
+    background-image: url(images/image3.jfif);
+    color: white;
+    padding:10px
+}
