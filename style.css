@@ -162,7 +162,7 @@ h3::first-letter {
     display: block;
 }
 
-.my-form input[type="text"], .my-form textarea{
+.my-form input[type="text"], input[type="email"], .my-form textarea{
     padding:8px;
     width:30%;
     border-radius: 5px;
