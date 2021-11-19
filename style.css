@@ -58,7 +58,7 @@ body{
     margin: 10px;
 }
 
-.content{
+#content{
     padding-bottom: 200px;
 }
 
@@ -91,13 +91,17 @@ body{
     
 }
 
+.help a{
+    padding:2px;
+}
+
 .help a:link{
     
     color: #1c87c9;
 }
 
 .help a:visited{
-    color: #cccccc;
+    color: #8209a0;
 }
 
 .help a:hover{
@@ -109,7 +113,7 @@ body{
 }
 
 .my-form{
-    padding:20px
+    padding:20px;
 }
 
 .my-form .form-group{
